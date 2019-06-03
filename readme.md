@@ -18,13 +18,13 @@ The reason that I chose to work with glTF for this project is because glTF is an
 
 On pressing the 'P' key, the current camera data from the WebGL context is saved as a PNG image locally and sent away to Azure. Azure returns its best estimate as to what the thing is (objects won't get captions if they aren't detected) and if a caption is found, it updates the text at the top of the document to read what is present in the scene.
 
-![A rendered orange car. The caption reads 'A WebGL canvas that shows: a close up of a car](readme_example_3.PNG)
+![A rendered orange car. The caption reads 'A WebGL canvas that shows: a close up of a car](resources/readme_example_3.PNG)
 
 ## Why I Made This
 I attended [YGLF](https://lithuania.yglfconf.com/) a couple of weeks ago and was struck by [Adrian's](https://twitter.com/aardrian) talk on accessibility. Not only was I struck by the lack of awareness and implementation of accessible design and development on the 2D web, I realized that there is very little movement happening around 3D content (particularly of interest to me in the context of VR on the web). This is my first attempt at playing with some technologies that could be used to build a larger framework of assistive-device friendly 3D content online.
 
 ## Attributions
-Three.js code from [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js);
+Three.js code from [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
 
 101 Dalmations - Roger's flat 3D model licensed under Creative Commons from user willdudley on Sketchfab: [https://sketchfab.com/3d-models/101-dalmatians-rogers-flat-dede088ea22647a1acc8aad453848eca](https://sketchfab.com/3d-models/101-dalmatians-rogers-flat-dede088ea22647a1acc8aad453848eca)
 
