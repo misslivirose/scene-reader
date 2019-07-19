@@ -3,7 +3,7 @@ This is an example application that illustrates how the [Microsoft Azure Cogniti
 
 ![A screenshot of the application. It has an apartment rendered in a screen, with a caption that has been automatically generated. The caption reads 'A WebGL context that shows a person sitting in a living room filled with furniture and a fireplace. There is not actually a person in the room - an algorithm has mistakenly seen the bust of man and thought it was a real person'](/resources/readme_example.PNG)
 
-[Click to view a video of the code working on YouTube](https://www.youtube.com/watch?v=NaO0Q_p8cPs&feature=youtu.be)
+[Click to view a video of the code working on Vimeo](https://vimeo.com/341017617)
 
 ## How it Works
 As you can see if you play around with this, the captions are not particularly accurate, but in cases where the confidence of the recognition model is fairly high, provides some degree of assistance in capturing a visual object and attempting to better understand what a 3D scene contains. This could pretty easily be adapted to any other WebGL drawing context, since it's using the built-in [HTMLCanvasElement.toDataURL()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL) function on the WebGL canvas to convert whatever is currently rendered on the canvas into a byte array that can be sent as a [blob](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Sending_and_Receiving_Binary_Data) to Azure for processing. 
